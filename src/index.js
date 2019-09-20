@@ -4,7 +4,7 @@ const userRoute = require('./routes/userRoute');
 const taskRoute = require('./routes/taskRoute');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 // app.use((req, res, next) => {
 //     res.status(503).send('Site is under maintainence. Please try later.')
